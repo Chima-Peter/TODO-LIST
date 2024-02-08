@@ -1,0 +1,28 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "A todo list website that helps user enter lists of things they intend on doing and helps them keep track of it.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "gh-pages": "git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [],
+  "author": "OJIMMA CHIMA PETER <chimaojimma@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "css-minimizer-webpack-plugin": "^6.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.0",
+    "style-loader": "^3.3.4",
+    "terser-webpack-plugin": "^5.3.10",
+    "web-dev-server": "^3.0.27",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.10.0",
+    "webpack-plugin": "^1.0.5"
+  }
+}
