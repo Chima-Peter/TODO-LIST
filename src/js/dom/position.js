@@ -13,3 +13,9 @@ export function removePosition(element) {
 export function removeNav(element) {
     element.classList.remove('fixed-nav');
 }
+export function addSticky(element) {
+    element.classList.add('bhdh');
+}
+export function removeSticky(element) {
+    element.classList.remove('bhdh');
+}
