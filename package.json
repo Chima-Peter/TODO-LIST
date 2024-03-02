@@ -12,6 +12,7 @@
   "author": "OJIMMA CHIMA PETER <chimaojimma@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^6.10.0",
     "css-minimizer-webpack-plugin": "^6.0.0",
     "html-webpack-plugin": "^5.6.0",
@@ -26,6 +27,7 @@
     "webpack-plugin": "^1.0.5"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "lazysizes": "^5.3.2"
   }
 }

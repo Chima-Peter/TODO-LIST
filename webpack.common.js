@@ -2,16 +2,31 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.js',
-    plugins: [
+    entry: {
+        index: './src/js/index.js',
+        form: './src/js/form.js',
+        task: './src/js/task.js',
+      },
+      plugins: [
         new HtmlWebpackPlugin({
-            template: './src/index.html',
-            minify: {
-                removeComments: true,
-                collapseWhitespace: true,
-            }
-        })
-    ],
+          template: './src/index.html',
+          filename: 'index.html',
+          inject: true,
+          chunks: ['index'],
+        }),
+        new HtmlWebpackPlugin({
+          template: './src/form.html',
+          filename: 'form.html',
+          inject: true,
+          chunks: ['form'],
+        }),
+        new HtmlWebpackPlugin({
+          template: './src/task.html',
+          filename: 'task.html',
+          inject: true,
+          chunks: ['task'],
+        }),
+      ],
     module: {
         rules: [
             {

@@ -1,7 +1,7 @@
 
 body {
     padding: 0;
-    margin: 0px 0px 300px 0px;
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     gap: 40px;
@@ -141,6 +141,13 @@ a:visited {
     backdrop-filter: blur(3px);
 
 }
+.sticky {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    backdrop-filter: blur(3px);
+}
 
 
 
@@ -228,6 +235,7 @@ a:visited {
 }
 .you-box-text {
     display: flex;
+    gap: 10px;
     flex-direction: column;
     align-items: center;
 }
@@ -241,7 +249,7 @@ a:visited {
     border-radius: 30px;
 }
 #you-box div p, #family-box div p, #team-box div p {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #334155;
     width: 30ch;
@@ -264,6 +272,51 @@ a:visited {
 #you-box > :nth-child(2) p, #you-box > :nth-child(7) p {
     color: white;
     width: 30ch;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+    align-items: flex-start;
+}
+footer > div {
+    width: fit-content;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+footer > :last-child {
+    gap: 10px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: normal;
+}
+.footer-div1 img {
+    width: 50%;
+}
+footer div h3 {
+    color: black;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+ul li {
+    color: #334155;
+    font-size: 1rem;
+    font-weight: lighter;
+    list-style-type: none;
+    padding: 10px;
+}
+.svg-div > :last-child {
+    width: 30px;
+    height: 20px;
 }
 
 
@@ -308,9 +361,12 @@ a:visited {
         padding: 10px 25px;
     }
     #you-box > div, #family-box > div, #team-box > div {
-        width: 300px;
+        width: 70%;
     }
     #you-box div h4, #family-box div h4, #team-box div h4 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+    }
+    #you-box div p, #family-box div p, #team-box div p {
+        font-size: 1rem;
     }
 }
