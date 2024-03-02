@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.ec93431a02b61e0a543c.js","mappings":"AAAAA,QAAQC,IAAI","sources":["webpack://todo-list/./src/js/task.js"],"sourcesContent":["console.log('this is task.js')"],"names":["console","log"],"sourceRoot":""}
