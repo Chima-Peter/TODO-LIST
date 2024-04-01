@@ -141,6 +141,7 @@ button {
   font-family: 'Poppins', sans-serif;
   border: 1px solid black;
   color: white;
+  cursor: pointer;
   background-color: black;
 }
 button:hover {

@@ -13,8 +13,8 @@ export const Form = (function () {
   const welcome = () => {
     document.addEventListener("DOMContentLoaded", () => {
       fname.textContent = '';
-  lname.textContent = '';
-  email.textContent = '';
+    lname.textContent = '';
+      email.textContent = '';
 
   fname.addEventListener('input', () => {
     if ((fname.value.length !== 0) && (!checkNameRegExp(fname))) {
