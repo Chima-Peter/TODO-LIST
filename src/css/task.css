@@ -529,4 +529,16 @@ select {
   .today-first {
     gap: 20px;
   }
+  .today-sec {
+    align-items: center;
+  }
+  .today-first button {
+    position: fixed;
+    bottom: 0;
+    width: 96%;
+    margin: 20px 0 0 0;
+  }
+  .visible {
+    align-items: center;
+  }
 }
