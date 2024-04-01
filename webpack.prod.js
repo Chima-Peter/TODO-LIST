@@ -32,10 +32,5 @@ module.exports = merge(common, {
         ]
     },
     devtool: 'source-map',
-    optimization: {
-        minimizer: [
-            new CssMinimizerPlugin(),
-            new TerserPlugin({}),
-        ]
-    }
+    
 });
