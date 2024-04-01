@@ -507,10 +507,10 @@ select {
   }
   
   .nav > :first-child > h2 {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     letter-spacing: 1.5px;
     padding: 0;
-    color: black;
+    color: white;
     margin: 0;
     text-transform: capitalize;
   }
